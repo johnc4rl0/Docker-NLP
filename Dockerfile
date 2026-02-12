@@ -16,3 +16,4 @@ COPY entrypoint.sh /app
 RUN chmod +x /app/entrypoint.sh
 
 ENTRYPOINT ["/app/entrypoint.sh"]
+CMD ["05_language_translation.py"]
